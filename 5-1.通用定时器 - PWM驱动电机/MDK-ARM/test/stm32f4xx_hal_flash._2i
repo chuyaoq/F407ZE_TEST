@@ -1,0 +1,6 @@
+--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/CMSIS/Include -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include
+-I.\RTE\_test
+-ID:\STM32\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include
+-ID:\STM32\keil\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx
+-o test\stm32f4xx_hal_flash.o --depend test\stm32f4xx_hal_flash.d --feedback "test\test.fed" "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c"

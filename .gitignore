@@ -1,0 +1,18 @@
+# Keil MDK / ARM build outputs
+*.o
+*.crf
+*.d
+*.dep
+*.axf
+*.elf
+*.bin
+*.hex
+*.map
+*.lst
+*.lnp
+
+# User-specific IDE state
+*.uvguix.*
+
+# Debugger / tool logs
+JLinkLog.txt

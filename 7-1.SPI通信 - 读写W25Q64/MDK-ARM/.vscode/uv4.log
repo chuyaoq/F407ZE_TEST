@@ -1,0 +1,9 @@
+*** Using Compiler 'V5.06 update 5 (build 528)', folder: 'D:\keil\32\ARM\ARMCC\Bin'
+Build target 'w25q64'
+compiling w25flash.c...
+..\Hardware\w25flash.c(17): error:  #148: variable "WS_W25Qxx_Chip_Type"  has already been initialized
+  WS_W25QxxTypeDef WS_W25Qxx_Chip_Type = W25Qxx_Not; // 当前识别到的芯片类型（初始为未识别）
+..\Hardware\w25flash.c: 0 warnings, 1 error
+"w25q64\w25q64.axf" - 1 Error(s), 0 Warning(s).
+Target not created.
+Build Time Elapsed:  00:00:02

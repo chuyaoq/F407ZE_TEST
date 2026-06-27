@@ -1,0 +1,70 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.24.2.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 1 3523728553@qq.com, 1, LIC=ATTQ1-CEYPE-74WS0-BEHZT-BKKDH-95B8H
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.24.1
+Toolchain Path:  D:\STM32\keil\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.7
+Assembler:       Armasm.exe V6.7
+Linker/Locator:  ArmLink.exe V6.7
+Library Manager: ArmAr.exe V6.7
+Hex Converter:   FromElf.exe V6.7
+CPU DLL:         SARMCM3.DLL V5.24.1
+Dialog DLL:      DCM.DLL V1.16.0.0
+Target DLL:      Segger\JL2CM3.dll V2.99.26.0
+Dialog DLL:      TCM.DLL V1.32.0.0
+ 
+<h2>Project:</h2>
+D:\StarsPi-M0\HAL库例程代码\0-1.第一个STM32程序\MDK-ARM\LED.uvprojx
+Project File Date:  04/28/2026
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.7', folder: 'D:\STM32\keil\ARM\ARMCLANG\Bin'
+Build target 'LED'
+../Core/Src/main.c(111): warning: missing field 'HSEState' initializer [-Wmissing-field-initializers]
+  RCC_OscInitTypeDef RCC_OscInitStruct = {0};
+                                           ^
+../Core/Src/main.c(112): warning: missing field 'SYSCLKSource' initializer [-Wmissing-field-initializers]
+  RCC_ClkInitTypeDef RCC_ClkInitStruct = {0};
+                                           ^
+../Core/Src/main.c(159): warning: function 'Error_Handler' could be declared with attribute 'noreturn' [-Wmissing-noreturn]
+{
+^
+3 warnings generated.
+compiling main.c...
+linking...
+Program Size: Code=3396 RO-data=440 RW-data=16 ZI-data=1632  
+FromELF: creating hex file...
+"LED\LED.axf" - 0 Error(s), 3 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.0.1.pack
+                ARM.CMSIS.5.0.1
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.0.1
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.STM32F4xx_DFP.2.17.1.pack
+                Keil.STM32F4xx_DFP.2.17.1
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_LED
+  D:\STM32\keil\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include
+  D:\STM32\keil\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.0.1
+Build Time Elapsed:  00:00:06
+</pre>
+</body>
+</html>
